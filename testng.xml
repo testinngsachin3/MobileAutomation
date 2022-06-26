@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Calculator Validations">
+	<test name="Calc Tests">
+		<classes>
+			<class name="com.base.test.CalculatorTest">
+				<methods>
+					<include name="Calculation_with_valid_data" />
+					<include name="Calculation_validations" />
+				</methods>
+			</class>			
+		</classes>
+	</test>
+</suite> 
